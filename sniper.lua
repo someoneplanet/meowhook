@@ -1215,7 +1215,7 @@ Note: It is also perfectly legal to save a reference to the function returned by
 	end
 	-- put scripts under here! --
 	Ply = game.Players.LocalPlayer
-	Char = Ply.Character
+	Char = Empyrean.Rig
 	Tor = Char.Torso
 	He = Char.Head
 	Ne = Tor.Neck
