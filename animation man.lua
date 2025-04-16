@@ -34,6 +34,8 @@ Converted["_Mainframe"].Size = UDim2.new(0, 402, 0, 85)
 Converted["_Mainframe"].Visible = false
 Converted["_Mainframe"].Name = "Mainframe"
 Converted["_Mainframe"].Parent = Converted["_meowhook"]
+Converted["_Mainframe"].Active = true
+Converted["_Mainframe"].Draggable = true
 
 Converted["_UICorner"].Parent = Converted["_Mainframe"]
 
