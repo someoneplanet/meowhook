@@ -76,13 +76,13 @@ Empyrean = Start({
 		{ MeshId = "rbxassetid://126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "rbxassetid://125975972015302" }
 	},
 	ApplyDescription = true,
-	BreakJointsDelay = 0.251,
-	ClickFling = false,
+	BreakJointsDelay = 0.255,
+	ClickFling = true,
 	DisableCharacterCollisions = true,
 	DisableHealthBar = true,
 	DisableRigCollisions = true,
 	HatDrop = true,
-	HideCharacter = true,
+	HideCharacter = Vector3.new(0, - 30, 0),
 	ParentCharacter = true,
 	PermanentDeath = true,
 	Refit = true,
@@ -95,15 +95,16 @@ Empyrean = Start({
 	SetCollisionGroup = true,
 	SimulationRadius = 2147483647,
 	TeleportRadius = 12,
+	UseServerBreakJoints = true,
 })
 
 DefaultFlingOptions = {
 	HatFling = false,
 	Highlight = true,
 	PredictionFling = true,
-	Timeout = 2,
+	Timeout = 1,
 	ToolFling = false,
-}
+},
 	local uis = game:GetService("UserInputService")
 	local cmt = {
 		Angles = function(x,y,z,useRad)
