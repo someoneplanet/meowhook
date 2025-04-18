@@ -65,46 +65,7 @@ Converted["_Run"].Size = UDim2.new(0, 91, 0, 33)
 Converted["_Run"].Name = "Run"
 Converted["_Run"].Parent = Converted["_Mainframe"]
 Converted["_Run"].MouseButton1Click:Connect(function()
-Empyrean = Start({
-	Accessories = {
-		{ MeshId = "rbxassetid://125405780718494", Names = { "Right Arm", "Left Arm" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://136752500636691" },
-		{ MeshId = "rbxassetid://137702817952968", Names = { "Right Arm", "Left Arm" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://135650240593878" },
-		{ MeshId = "rbxassetid://14768684979", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://14768683674" },
-		{ MeshId = "rbxassetid://137702817952968", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://73798034827573" },
-		{ MeshId = "rbxassetid://125405780718494", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://136752500636691" },
-		{ MeshId = "rbxassetid://14768666349", Name = "Torso", Offset = CFrame.identity, TextureId = "rbxassetid://14768664565" },
-		{ MeshId = "rbxassetid://126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "rbxassetid://125975972015302" }
-	},
-	ApplyDescription = true,
-	BreakJointsDelay = 0.255,
-	ClickFling = true,
-	DisableCharacterCollisions = true,
-	DisableHealthBar = true,
-	DisableRigCollisions = true,
-	HatDrop = true,
-	HideCharacter = Vector3.new(0, - 30, 0),
-	ParentCharacter = true,
-	PermanentDeath = true,
-	Refit = true,
-	RigSize = 1,
-	RigTransparency = 1,
-	R15 = false,
-	SetCameraSubject = true,
-	SetCameraType = true,
-	SetCharacter = false,
-	SetCollisionGroup = true,
-	SimulationRadius = 2147483647,
-	TeleportRadius = 12,
-	UseServerBreakJoints = true,
-})
 
-DefaultFlingOptions = {
-	HatFling = false,
-	Highlight = true,
-	PredictionFling = true,
-	Timeout = 1,
-	ToolFling = false,
-},
 	local uis = game:GetService("UserInputService")
 	local cmt = {
 		Angles = function(x,y,z,useRad)
