@@ -105,9 +105,6 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		Title = "WARNING";
 		Text = "this script was made by hemi!! not imameow"
 	})
-	game.Players.LocalPlayer:GetMouse().Button1Down:Connect(function()
-		Empyrean.Fling(game.Players.LocalPlayer:GetMouse().Target.Parent.Head, DefaultFlingOptions)
-	end)
 	-- Krystal Dance V3, Made by Hemi (es muy janky)
 	if not isfolder("Dances") then 
 		makefolder("Dances")
