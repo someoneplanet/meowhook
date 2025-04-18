@@ -277,9 +277,6 @@ Empyrean = Start({
 			return tween
 		end
 	end
-	game.Players.LocalPlayer:GetMouse().Button1Down:Connect(function()
-		Empyrean.Fling(game.Players.LocalPlayer:GetMouse().Target.Parent.Head, DefaultFlingOptions)
-	end)
 
 	bindslol = function(input)
 		if input == "leftcontrol" then
