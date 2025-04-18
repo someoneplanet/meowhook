@@ -96,15 +96,14 @@ Empyrean = Start({
 	SimulationRadius = 2147483647,
 	TeleportRadius = 12,
 	UseServerBreakJoints = true,
+	DefaultFlingOptions = {
+		HatFling = false,
+		Highlight = true,
+		PredictionFling = true,
+		Timeout = 1,
+		ToolFling = false,
+	},
 })
-
-DefaultFlingOptions = {
-	HatFling = false,
-	Highlight = true,
-	PredictionFling = true,
-	Timeout = 1,
-	ToolFling = false,
-}
 		
 	local uis = game:GetService("UserInputService")
 	local cmt = {
