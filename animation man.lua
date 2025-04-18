@@ -104,7 +104,7 @@ DefaultFlingOptions = {
 	PredictionFling = true,
 	Timeout = 1,
 	ToolFling = false,
-},
+}
 		
 	local uis = game:GetService("UserInputService")
 	local cmt = {
