@@ -74,11 +74,11 @@ Empyrean = Start({
 		{ MeshId = "rbxassetid://14768684979", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://14768683674" },
 		{ MeshId = "rbxassetid://137702817952968", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://73798034827573" },
 		{ MeshId = "rbxassetid://125405780718494", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://136752500636691" },
-		{ MeshId = "rbxassetid://11263221350", Name = "Right Leg", Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "http://www.roblox.com/asset/?id=11263219250" },
-		{ MeshId = "rbxassetid://11159370334", Name = "Left Leg", Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "http://www.roblox.com/asset/?id=11159284657" },
+		{ MeshId = "rbxassetid://11263221350", Name = "Right Leg", Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://11263219250" },
+		{ MeshId = "rbxassetid://11159370334", Name = "Left Leg", Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://11159284657" },
 		{ MeshId = "rbxassetid://14768666349", Name = "Torso", Offset = CFrame.identity, TextureId = "rbxassetid://14768664565" },
 		{ MeshId = "rbxassetid://126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "rbxassetid://125975972015302" },
-		{ MeshId = "rbxassetid://13778226115", Name = "Torso", Offset = CFrame.identity, TextureId = "http://www.roblox.com/asset/?id=13779858015" }
+		{ MeshId = "rbxassetid://13778226115", Name = "Torso", Offset = CFrame.identity, TextureId = "rbxassetid://13779858015" }
 	},
 	ApplyDescription = true,
 	BreakJointsDelay = 0.255,
