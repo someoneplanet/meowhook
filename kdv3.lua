@@ -80,7 +80,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		HatDrop = false,
 		HideCharacter = Vector3.new(0, - 30, 0),
 		ParentCharacter = true,
-		PermanentDeath = false,
+		PermanentDeath = true,
 		Refit = true,
 		RigSize = 2,
 		RigTransparency = 1,
@@ -91,7 +91,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		SetCollisionGroup = true,
 		SimulationRadius = 2147483647,
 		TeleportRadius = 12,
-		UseServerBreakJoints = false,
+		UseServerBreakJoints = true,
 		DefaultFlingOptions = {
 			HatFling = false,
 			Highlight = true,
