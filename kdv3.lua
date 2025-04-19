@@ -80,7 +80,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		HatDrop = false,
 		HideCharacter = Vector3.new(0, - 30, 0),
 		ParentCharacter = true,
-		PermanentDeath = false,
+		PermanentDeath = true,
 		Refit = true,
 		RigSize = 2,
 		RigTransparency = 1,
