@@ -77,7 +77,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		DisableCharacterCollisions = true,
 		DisableHealthBar = true,
 		DisableRigCollisions = true,
-		HatDrop = false,
+		HatDrop = true,
 		HideCharacter = Vector3.new(0, - 30, 0),
 		ParentCharacter = true,
 		PermanentDeath = true,
