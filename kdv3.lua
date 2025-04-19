@@ -67,9 +67,9 @@ Converted["_Run"].Parent = Converted["_Mainframe"]
 Converted["_Run"].MouseButton1Click:Connect(function()
 	Empyrean = Start({
 		Accessories = {
-			{ MeshId = "rbxassetid://138744606849121", Names = { "Right Arm", "Left Arm" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://136752500636691" },
-			{ MeshId = "rbxassetid://138744606849121", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "rbxassetid://83207562332062" },
-			{ MeshId = "rbxassetid://126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "rbxassetid://136752500636691" }
+			{ MeshId = "138744606849121", Names = { "Right Arm", "Left Arm" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "136752500636691" },
+			{ MeshId = "138744606849121", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "83207562332062" },
+			{ MeshId = "126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "136752500636691" }
 		},
 		ApplyDescription = true,
 		BreakJointsDelay = 0.255,
