@@ -95,12 +95,12 @@ Empyrean = Start({
 	SetCollisionGroup = true,
 	SimulationRadius = 2147483647,
 	TeleportRadius = 12,
-	UseServerBreakJoints = true,
+	UseServerBreakJoints = false,
 	DefaultFlingOptions = {
 		HatFling = false,
 		Highlight = true,
 		PredictionFling = true,
-		Timeout = 1,
+		Timeout = 2,
 		ToolFling = false,
 	},
 })
