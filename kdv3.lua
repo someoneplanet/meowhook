@@ -91,7 +91,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		SetCollisionGroup = true,
 		SimulationRadius = 2147483647,
 		TeleportRadius = 12,
-		UseServerBreakJoints = false,
+		UseServerBreakJoints = true,
 		DefaultFlingOptions = {
 			HatFling = false,
 			Highlight = true,
