@@ -78,7 +78,7 @@ Empyrean = Start({
 		{ MeshId = "11159370334", Name = "Left Leg", Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "11159284657" },
 		{ MeshId = "14768666349", Name = "Torso", Offset = CFrame.identity, TextureId = "14768664565" },
 		{ MeshId = "126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "125975972015302" },
-		{ MeshId = "13778226115", Name = "Torso", Offset = CFrame.identity, TextureId = "13779858015" }
+		{ MeshId = "13778226115", Name = "Torso", Offset = CFrame.identity, TextureId = "13779858015" },
 	},
 	ApplyDescription = true,
 	BreakJointsDelay = 0.255,
@@ -87,7 +87,7 @@ Empyrean = Start({
 	DisableHealthBar = true,
 	DisableRigCollisions = true,
 	HatDrop = false,
-	HideCharacter = Vector3.new(0, - 30, 0),
+	HideCharacter = true,
 	ParentCharacter = true,
 	PermanentDeath = true,
 	Refit = true,
@@ -100,15 +100,15 @@ Empyrean = Start({
 	SetCollisionGroup = true,
 	SimulationRadius = 2147483647,
 	TeleportRadius = 12,
-	UseServerBreakJoints = true,
-	DefaultFlingOptions = {
-		HatFling = false,
-		Highlight = true,
-		PredictionFling = true,
-		Timeout = 1,
-		ToolFling = false,
-	},
 })
+
+DefaultFlingOptions = {
+	HatFling = false,
+	Highlight = true,
+	PredictionFling = true,
+	Timeout = 1,
+	ToolFling = false,
+}
 		
 	local uis = game:GetService("UserInputService")
 	local cmt = {
