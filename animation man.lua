@@ -82,7 +82,7 @@ Empyrean = Start({
 	},
 	ApplyDescription = true,
 	BreakJointsDelay = 0.255,
-	ClickFling = true,
+	ClickFling = false,
 	DisableCharacterCollisions = true,
 	DisableHealthBar = true,
 	DisableRigCollisions = true,
@@ -109,6 +109,10 @@ DefaultFlingOptions = {
 	Timeout = 1,
 	ToolFling = false,
 }
+
+game.Players.LocalPlayer:GetMouse().Button1Down:Connect(function()
+	Empyrean.Fling(game.Players.LocalPlayer:GetMouse().Target.Parent.Head,DefaultFlingOptions)
+end)
 		
 	local uis = game:GetService("UserInputService")
 	local cmt = {
