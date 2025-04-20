@@ -73,7 +73,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		},
 		ApplyDescription = true,
 		BreakJointsDelay = 0.255,
-		ClickFling = true,
+		ClickFling = false,
 		DisableCharacterCollisions = true,
 		DisableHealthBar = true,
 		DisableRigCollisions = true,
@@ -100,6 +100,10 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		Timeout = 2,
 		ToolFling = false,
 	}
+
+game.Players.LocalPlayer:GetMouse().Button1Down:Connect(function()
+	Empyrean.Fling(game.Players.LocalPlayer:GetMouse().Target.Parent.Head,DefaultFlingOptions)
+end)
 
 	game.StarterGui:SetCore("SendNotification",{
 		Title = "WARNING";
