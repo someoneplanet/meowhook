@@ -69,7 +69,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		Accessories = {
 			{ MeshId = "138744606849121", Names = { "Right Arm", "Left Arm" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "136752500636691" },
 			{ MeshId = "138744606849121", Names = { "Right Leg", "Left Leg" }, Offset = CFrame.Angles(0,0,math.rad(-90)), TextureId = "83207562332062" },
-			{ MeshId = "126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "136752500636691" }
+			{ MeshId = "126825022897778", Name = "Torso", Offset = CFrame.identity, TextureId = "136752500636691" },
 		},
 		ApplyDescription = true,
 		BreakJointsDelay = 0.255,
@@ -78,7 +78,7 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		DisableHealthBar = true,
 		DisableRigCollisions = true,
 		HatDrop = false,
-		HideCharacter = Vector3.new(0, - 30, 0),
+		HideCharacter = true,
 		ParentCharacter = true,
 		PermanentDeath = false,
 		Refit = true,
@@ -91,15 +91,15 @@ Converted["_Run"].MouseButton1Click:Connect(function()
 		SetCollisionGroup = true,
 		SimulationRadius = 2147483647,
 		TeleportRadius = 12,
-		UseServerBreakJoints = false,
-		DefaultFlingOptions = {
-			HatFling = false,
-			Highlight = true,
-			PredictionFling = true,
-			Timeout = 2,
-			ToolFling = false,
-		},
 	})
+
+	DefaultFlingOptions = {
+		HatFling = false,
+		Highlight = true,
+		PredictionFling = true,
+		Timeout = 2,
+		ToolFling = false,
+	}
 
 	game.StarterGui:SetCore("SendNotification",{
 		Title = "WARNING";
